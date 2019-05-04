@@ -1,15 +1,16 @@
 ## This is a great project
 
 ```js
+
 const AWS = require('aws-sdk')
 
+console.log('hello world')
 
-const { _id } = event
-const dbClinet = new AWS.dynamodb.documentClient()
-
-const param = {
-  Table: 'Nicole.users',
-  Key: { _id }
+const test = (data) => {
+    const { name } = data
+    const person = {
+        name
+    }
 }
 ```
 
