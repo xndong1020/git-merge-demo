@@ -1,12 +1,14 @@
 ## This is a great project
 
 ```js
-const express = require('express')
-const app = express()
+console.log('hello world')
 
-app.listen(3000, () => {
-    console.log('listening on port 3000')
-})
+const test = (data) => {
+    const { name } = data
+    const person = {
+        name
+    }
+}
 ```
 
 ### TODO: code implementation
