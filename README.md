@@ -1,13 +1,17 @@
 ## This is a great project
 
 ```js
-
-const AWS = require('aws-sdk')
+var AWS = require('aws-sdk')
 console.log('hello world')
 
-app.listen(3000, () => {
-    console.log('listening on port 3000')
-})
+        public CartControllerTest()
+        {
+            _catalogServiceMock = new Mock<ICatalogService>();
+            _basketServiceMock = new Mock<IBasketService>();
+            _identityParserMock = new Mock<IIdentityParser<ApplicationUser>>();
+            _contextMock = new Mock<HttpContext>();
+        }
+    }
 ```
 
 ### TODO: code implementation
