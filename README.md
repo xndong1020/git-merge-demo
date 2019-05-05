@@ -1,12 +1,21 @@
 ## This is a great project
 
 ```js
-const express = require('express')
-const app = express()
+public class CartControllerTest
+    {
+        private readonly Mock<ICatalogService> _catalogServiceMock;
+        private readonly Mock<IBasketService> _basketServiceMock;
+        private readonly Mock<IIdentityParser<ApplicationUser>> _identityParserMock;
+        private readonly Mock<HttpContext> _contextMock;
 
-app.listen(3000, () => {
-    console.log('listening on port 3000')
-})
+        public CartControllerTest()
+        {
+            _catalogServiceMock = new Mock<ICatalogService>();
+            _basketServiceMock = new Mock<IBasketService>();
+            _identityParserMock = new Mock<IIdentityParser<ApplicationUser>>();
+            _contextMock = new Mock<HttpContext>();
+        }
+    }
 ```
 
 ### TODO: code implementation
